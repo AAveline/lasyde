@@ -4,7 +4,6 @@
   "description": "",
   "dependencies": {
     "adm-zip": "^0.4.13",
-    "jszip": "^3.2.2",
     "shelljs": "^0.8.3"
   },
   "main": "./lib/index.js",
