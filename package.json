@@ -1,0 +1,18 @@
+{
+  "name": "lasyde",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "adm-zip": "^0.4.13",
+    "jszip": "^3.2.2"
+  },
+  "main": "./lib/index.js",
+  "bin": {
+    "lasyde": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aymeric Aveline",
+  "license": "ISC"
+}
