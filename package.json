@@ -1,6 +1,6 @@
 {
   "name": "lasyde",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "dependencies": {
     "adm-zip": "^0.4.13",
