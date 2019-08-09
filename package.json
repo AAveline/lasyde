@@ -1,7 +1,17 @@
 {
   "name": "lasyde",
   "version": "1.1.0",
-  "description": "",
+  "homepage": "https://github.com/karbonn/lasyde#readme",
+  "keywords": [
+    "aws",
+    "lambda",
+    "cli"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/karbonn/lasyde.git"
+  },
+  "description": "Simple CLI to package and tag a lambda function",
   "dependencies": {
     "adm-zip": "^0.4.13",
     "shelljs": "^0.8.3"

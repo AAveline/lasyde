@@ -20,13 +20,16 @@ In your Lambda folder, add a config file:
       "functionName": "<function-name>",
       "aliases": {
         "dev": "$LATEST",
-        "prod": "<some-version>"
+        "prod": "<some-version>",
+        "other-alias": "up-to-date"
       },
-      "bucket": "<your-bucket>"
+      "bucket": "<your-bucket>",
+      // Optional
+      "prune": <int>
   }
 }
 ```
 
 Then, in the folder, run the following command:
 
-`lasyde --target <some-name> --alias <your-alias>`
+`lasyde deploy --target <some-name> --alias <your-alias>`
