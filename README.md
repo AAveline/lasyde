@@ -1,4 +1,5 @@
 # Lasyde
+
 :warning: Work in progress
 Simple CLI to package and tag a lambda function.
 
@@ -21,7 +22,7 @@ In your Lambda folder, add a config file:
       "aliases": {
         "dev": "$LATEST",
         "prod": "<some-version>",
-        "other-alias": "up-to-date"
+        "other-alias": "fixed@update"
       },
       "bucket": "<your-bucket>",
       // Optional
