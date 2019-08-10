@@ -1,11 +1,11 @@
 #!/usr/bin/env node
-const { formatMap, checkRequirements, zip, main } = require("../lib");
+const { formatOptions, checkRequirements, zip, main } = require("../lib");
 const { pipe } = require("../lib/helpers");
 
 if (process.argv.includes("deploy")) {
   pipe(
     checkRequirements,
-    formatMap,
+    formatOptions,
     zip,
     main
   )(process.argv);
