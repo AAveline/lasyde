@@ -1,6 +1,5 @@
 # Lasyde
 
-:warning: Work in progress
 Simple CLI to package and tag a lambda function.
 
 ## Installation
